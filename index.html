@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>MasseyHacks II</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/particles.min.js"></script>
+	<script type="text/javascript" src="js/typer.min.js"></script>
+	<script type="text/javascript" src="js/countdown.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+	<meta name="viewport" content="width=device-width,initial-scale = 0.65,maximum-scale = 0.65,user-scalable=no" />
+	<meta name="theme-color" content="#364C6D">
+	<meta name="description" content="MasseyHacks II is Canada's first MLH high school hackathon! MasseyHacks brings students together for 24 hours to learn and develop something new and interesting!">
+	<meta name="keywords" content="MasseyHacks, II, MasseyHacks II, Windsor, Hacks, Massey, VMSS, Vincent, MLH, Learnathon, Hackathon, Computer, Science, Computer Science">
+	<meta property="og:title" content="MasseyHacks II" />
+	<meta property="og:description" content="MasseyHacks II is Canada's first MLH high school hackathon! MasseyHacks brings students together for 24 hours to learn and develop something new and interesting!" />
+	<meta property="og:image" content="img/logo_square.png" />
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="icon" href="img/favicon.png">
+	<link rel="apple-touch-icon" href="img/favicon.png">
+
+	<meta charset="UTF-8">
+
+</head>
+
+<body>
+	<div id="bg"></div>
+	<header>
+		<nav>
+			<h4 class="hvr-float" id="about-l">About</h4>
+			<h4 class="hvr-float" id="faq-l">FAQ</h4>
+			<h4 class="hvr-float" id="sponsors-l">Sponsors</h4>
+			<img src="img/logo-white.png" id="home">
+			<h4 class="hvr-float" id="schedule-l">Schedule</h4>
+			<h4 class="hvr-float" id="team-l">Team</h4>
+			<h4 class="hvr-float" id="press-l">Press</h4>
+		</nav>
+	</header>
+
+	<div id="sticky">
+		<div id="sticky-nav">
+			<img src="img/logo-white.png" id="home-sticky">
+			<h4 class="hvr-float" id="about-sticky-l">About</h4>
+			<h4 class="hvr-float" id="faq-sticky-l">FAQ</h4>
+			<h4 class="hvr-float" id="sponsors-sticky-l">Sponsors</h4>
+			<h4 class="hvr-float" id="schedule-sticky-l">Schedule</h4>
+			<h4 class="hvr-float" id="team-sticky-l">Team</h4>
+			<h4 class="hvr-float" id="press-sticky-l">Press</h4>
+		</div>
+	</div>
+
+	<div id="intro">
+		<div id="name">
+			<h1>Massey</h1>
+			<h2>Hacks II</h2>
+		</div>
+		<h3><i class="fa fa-calendar"></i> May 21st - 22nd, 2016 | <i class="fa fa-map-marker"></i> Vincent Massey Secondary School</h3>
+		<h4>A big thank you to everyone who attended. We hope you enjoyed making your hack as much as we enjoyed helping you out and looking at them.</h4>
+		<h4>To view the winners, click <a href="http://masseyhacks2.devpost.com/submissions" target="_">here</a>.</h4>
+		<p><a href="https://www.facebook.com/events/777502335717541/" target="_blank"><i class="fa fa-2x fa-facebook-official" style="color: #fff;"></i></a><a href="https://twitter.com/masseyhacks" target="_blank"><i class="fa fa-2x fa-twitter" style="color: #fff;"></i></a></p>
+	</div>
+
+	<div id="about">
+		<h1 class="title">About</h1>
+		<p>Vincent Massey is hosting MasseyHacks II from May 21st - 22nd, 2016. Get ready for 24 hours of hacking! Check back here soon for more updates or follow us on social media.</p>
+		<h2>What's MasseyHacks all about?</h2>
+		<h2 style="color: #000;" data-typer-targets="Hacking!, Swag!, Free Food!, Fun!, Meeting People!, Having Fun with Friends!, Learning!, Making Things!, Programming!, Coding!, Celebrating!">It's All About!</h2>
+		<div style="overflow:hidden;width:500px;height:500px;resize:none;max-width:100%;margin-left:auto;margin-right:auto;padding-bottom:70px;margin-top:30px;">
+			<div id="embed-map-canvas" style="height:100%; width:100%;max-width:100%;">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2952.8707947883254!2d-83.03029588454689!3d42.25993167919368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405c50a312539fbd%3A0x6f8247b9fd6a69fd!2sVincent+Massey+Secondary+School!5e0!3m2!1sen!2sca!4v1509155671383" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>	
+			</div>
+			<style>
+				#embed-map-canvas .map-generator {
+					max-width: 100%;
+					max-height: 100%;
+					background: none;
+				}
+			</style>
+		</div>
+	</div>
+
+	<div id="faq">
+		<h1 class="title">FAQ</h1>
+		<div id="left-faq">
+			<h3>What is a hackathon?</h3>
+			<p>It is an event where students, both experienced and beginners in programming, gather together and build cool projects with technologies.</p>
+			<h3>Do I need to know how to program?</h3>
+			<p>No, not at all! If you've never programmed before, we'll teach you to write your very first line of code!</p>
+			<h3>What should I bring?</h3>
+			<p>You should bring your laptop (we won't provide computers) & charger, school ID, phone & charger, and power strips (recommended). Food will be provided!</p>
+			<h3>How will the teams work?</h3>
+			<p>You are encouraged to find teams before the event, but don't worry if you don't have one, we will help you find a team at the event! You can also chose to hack alone, but it's always more fun with a team! Teams can have maximum 4 people.</p>
+			<h3>How do I get to MasseyHacks II?</h3>
+			<p>If you are a high school student in the Windsor-Essex area, you should find your own transportation. We are aiming to send a bus to the GTA if funding permits. Travel reimbursements will be given on a case-by-case basis.</p>
+		</div>
+		<div id="right-faq">
+			<h3>I know a company that wants to sponsor, what should I tell them?</h3>
+			<p>Awesome! Let them know that they can contact us at <a href="mailto:sponsorship@masseyhacks">sponsorship@masseyhacks.ca</a>!</p>
+			<h3>How much does it cost?</h3>
+			<p>Nothing! MasseyHacks is completely free to everyone attending! Oh, yeah, we forgot to mention FREE FOOD AND SWAG!</p>
+			<h3>How do I know if I got accepted?</h3>
+			<p>We will be doing 4 rounds of acceptances every Sunday starting April 17. To be eligible for that round, you must submit your application before 11:59 the Saturday before. If you do not get accepted in the round, you do not need to re-apply, your application moves to the next round. If accepted, we will email you with details.</p>
+			<h3>Code of Conduct?</h3>
+			<p>Yes, of course! All hackers must abide to the MLH Code of Conduct found <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank" style="color: #fff">here</a>.</p>
+			<h3>What if one of my questions isn't on here?</h3>
+			<p>Shoot an email to <a href="mailto:hello@masseyhacks.ca">hello@masseyhacks.ca</a> and we'll get back to you as soon as we can!</p>
+		</div>
+	</div>
+
+	<div id="sponsors">
+		<h1 class="title">Sponsors</h1>
+		<p>Interested in sponsoring MasseyHacks II? Email us at <a href="mailto:sponsorship@masseyhacks.ca">sponsorship@masseyhacks.ca</a>.</p>
+		<div id="tera">
+			<a href="https://www.microsoft.com/" target="_blank"><img src="img/microsoft.png"></a>
+		</div>
+		<div id="giga">
+			<a href="http://wraclinics.ca/" target="_blank"><img src="img/wra.jpg"></a>
+			<a href="http://www.uwindsor.ca/" target="_blank"><img src="img/uwindsor.jpg"></a>
+			<img src="img/cmr.jpg">
+		</div>
+		<div id="mega">
+			<a href="https://www.emotelabs.com/" target="_blank"><img src="img/emote.png"></a>
+			<a href="http://www.bravecs.com/" target="_blank"><img src="img/brave.png"></a>
+			<a href="http://www.epicentreuwindsor.ca/" target="_blank"><img src="img/epicentre.png"></a>
+			<a href="http://www.stclaircollege.ca/" target="_blank"><img src="img/stclair.jpg"></a>
+			<a href="http://www1.uwindsor.ca/cs/" target="_blank"><img src="img/uwindsorcs.png"></a>
+			<a href="http://publicboard.ca/schools/massey" target="_blank"><img src="img/vmss.png"></a>
+			<a href="http://www.wetech-alliance.com/" target="_blank"><img src="img/wetech.png"></a>
+			<a href="https://publicboard.ca/schools/massey/parents/Pages/IMPAC.aspx" target="_blank"><img src="img/impac.png"></a>
+			<a href="http://www.windsoroptimistclub.org/" target="_blank"><img src="img/optimist.jpg"></a>
+		</div>
+		<div id="supporter">
+			<a href="http://radixinc.ca/" target="_blank"><img src="img/radix.jpg"></a>
+			<a href="https://www.facebook.com/TheWillistead" target="_blank"><img src="img/willistead.png"></a>
+			<a href="http://snackbarbq.ca/" target="_blank"><img src="img/snackbar.png"></a>
+			<a href="http://launchsummer.org/" target="_blank"><img src="img/mitlaunch.png"></a>
+			<a href="https://www.namecheap.com/" target="_blank"><img src="img/namecheap.jpg"></a>
+			<a href="http://www.mcdonalds.ca/" target="_blank"><img src="img/mcdonalds.png"></a>
+			<a href="https://www.wfcu.ca/" target="_blank"><img src="img/wfcu.png"></a>
+			<a href="http://www.oce-ontario.org/" target="_blank"><img src="img/oce.png"></a>
+			<a href="http://www.onebusiness.ca/" target="_blank"><img src="img/one.jpg"></a>
+			<a href="http://www.myprintsupplier.com/" target="_blank"><img src="img/aaa.jpg"></a>
+		</div>
+		<h1 class="title">Partners</h1>
+		<div id="partner">
+			<a href="http://mlh.io" target="_blank"><img src="img/mlh.png"></a>
+			<a href="http://hackthenorth.com" target="_blank"><img src="img/htn.png"></a>
+			<a href="http://techretreat.ca/" target="_blank"><img src="img/techretreat.jpg"></a>
+			<a href="https://hackwestern.com/" target="_blank"><img src="img/hackwestern.png"></a>
+		</div>
+		<p>Or, you can donate to our GoFundMe campaign below!</p>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="258" height="338" title="Click Here to donate!" type="application/x-shockwave-flash"><param name="movie" value="https://funds.gofundme.com/Widgetflex.swf" /><param name="quality" value="high" /><param name="flashvars" value="page=masseyhacks-ii&template=2" /><param name="wmode" value="transparent" /><embed allowScriptAccess="always" src="//funds.gofundme.com/Widgetflex.swf" quality="high" flashVars="page=masseyhacks-ii&template=2" type="application/x-shockwave-flash" wmode="transparent" width="258" height="338" style="margin-bottom: 20px;"></embed></object>
+	</div>
+
+	<div id="schedule">
+		<h1 class="title">Schedule</h1>
+		<div id="left-schedule">
+			<h2>Saturday</h2>
+			<table>
+				<tr>
+					<td class="time">11:00 AM - 12:00 PM</td>
+					<td>Sign-in (Front Rotunda)</td>
+				</tr>
+				<tr>
+					<td class="time">11:00 AM - 12:00 PM</td>
+					<td>Lunch (Cafeteria)</td>
+				</tr>
+				<tr>
+					<td class="time">12:00 PM - 1:00 PM</td>
+					<td>Opening Ceremonies (North Gym)</td>
+				</tr>
+				<tr>
+					<td class="time">1:00 PM</td>
+					<td>HACKATHON BEGINS!</td>
+				</tr>
+				<tr>
+					<td class="time">1:15 PM - 2:00 PM</td>
+					<td>Team Formations (RM 149)</td>
+				</tr>
+				<tr>
+					<td class="time">2:00 PM - 3:30 PM</td>
+					<td>Machine Learning using Azure Presented by Microsoft (RM 149)</td>
+				</tr>
+				<tr>
+					<td class="time">2:00 PM - 3:00 PM</td>
+					<td>Git and GitHub Workshop (RM 122)</td>
+				</tr>
+				<tr>
+					<td class="time">3:30 PM - 5:00 PM</td>
+					<td>Arduino Workshop (RM 170)</td>
+				</tr>
+				<tr>
+					<td class="time">3:30 PM - 5:00 PM</td>
+					<td>Intro to Unity Game Development Workshop (RM 124)</td>
+				</tr>
+				<tr>
+					<td class="time">3:30 PM - 5:00 PM</td>
+					<td>Android Beginner Workshop (RM 123)</td>
+				</tr>
+				<tr>
+					<td class="time">4:30 PM - 6:00 PM</td>
+					<td>Front-end Web Development Workshop (HTML, CSS, JS) (RM 122)</td>
+				</tr>
+				<tr>
+					<td class="time">5:00 PM - 6:00 PM</td>
+					<td>Intro to Design Workshop (RM 123)</td>
+				</tr>
+				<tr>
+					<td class="time">6:00 PM - 7:30 PM</td>
+					<td>Android Advanced Workshop (RM 123)</td>
+				</tr>
+				<tr>
+					<td class="time">6:00 PM - 7:00 PM</td>
+					<td>Pebble Workshop (RM 124)</td>
+				</tr>
+				<tr>
+					<td class="time">7:00 PM - 8:30 PM</td>
+					<td>Dinner (Cafeteria)</td>
+				</tr>
+				<tr>
+					<td class="time">8:30 PM - 10:30 PM</td>
+					<td>Back-end Web Development Workshop (RM 123)</td>
+				</tr>
+				<tr>
+					<td class="time">8:00 PM - 10:30 PM</td>
+					<td>Oculus Rift VR with Unity (RM 122)</td>
+				</tr>
+				<tr>
+					<td class="time">11:30 PM</td>
+					<td>MLH Cup Stacking (Cafeteria)</td>
+				</tr>
+				<tr>
+					<td class="time">11:30 PM</td>
+					<td>Travel Reimbursement Processing (Front Rotunda)</td>
+				</tr>
+			</table>
+		</div>
+		<div id="right-schedule">
+			<h2>Sunday</h2>
+			<table>
+			<tr>
+				<td class="time">12:00 AM - 12:30 AM</td>
+				<td>Midnight Snack</td>
+			</tr>
+			<tr>
+				<td class="time">1:00 AM - 2:00 Am</td>
+				<td>Women's Meetup (RM 123)</td>
+			</tr>
+			<tr>
+				<td class="time">2:00 AM - 3:00 AM</td>
+				<td>Water Pong Tournament & Karaoke (Cafeteria)</td>
+			</tr>
+			<tr>
+				<td class="time">4:00 AM - 5:30 AM</td>
+				<td>Blind Coding Challenge (RM 123)</td>
+			</tr>
+			<tr>
+				<td class="time">7:30 AM - 9:30 AM</td>
+				<td>Breakfast Presented by McDonalds (Cafeteria)</td>
+			</tr>
+			<tr>
+				<td class="time">11:30 AM - 1:00PM</td>
+				<td>Lunch (Cafeteria)</td>
+			</tr>
+			<tr>
+				<td class="time">12:00 PM - 1:00 PM</td>
+				<td>Submit Project to Devpost</td>
+			</tr>
+			<tr>
+				<td class="time">1:00 PM</td>
+				<td>HACKATHON ENDS!</td>
+			</tr>
+			<tr>
+				<td class="time">1:00 PM - 1:30 PM</td>
+				<td>Hacker Clean Up</td>
+			</tr>
+			<tr>
+				<td class="time">1:30 PM - 2:45 PM</td>
+				<td>Demoes (Cafeteria)</td>
+			</tr>
+			<tr>
+				<td class="time">2:45 PM - 3:15 PM</td>
+				<td>Hardware Return</td>
+			</tr>
+			<tr>
+				<td class="time">3:30 PM - 4:30 PM</td>
+				<td>Closing Ceremonies (North Gym)</td>
+			</tr>
+			</table>
+		</div>
+	</div>
+
+	<div id="team">
+		<h1 class="title">Team</h1>
+		<h3>Meet the team behind MasseyHacks II!</h3>
+		<div id="members">
+			<div class="member">
+				<img src="img/diana.jpg">
+				<h3>Diana Chang</h3>
+				<h4>Director</h4>
+			</div>
+			<div class="member" >
+				<img src="img/chris.jpg">
+				<h3>Christopher Gregorian</h3>
+				<h4>Head of Activities & Creativity</h4>
+			</div>
+			<div class="member">
+				<img src="img/suraj.jpg">
+				<h3>Suraj Rampure</h3>
+				<h4>Head of Volunteers</h4>
+			</div>
+			<div class="member">
+				<img src="img/michael.jpg">
+				<h3>Michael Ala</h3>
+				<h4>Head of Outreach & Workshops</h4>
+			</div>
+			<div class="member">
+				<img src="img/annie.jpg">
+				<h3>Annie Zhang</h3>
+				<h4>Head of Logistics</h4>
+			</div>
+			<div class="member">
+				<img src="img/rikin.jpg">
+				<h3>Rikin Katyal</h3>
+				<h4>Tech Team & Workshop Team</h4>
+			</div>
+			<div class="member">
+				<img src="img/paul.jpg">
+				<h3>Paul Krishnamurthy</h3>
+				<h4>Logistics Team</h4>
+			</div>
+			<div class="member">
+				<img src="img/frank.jpg">
+				<h3>Frank Gu</h3>
+				<h4>Workshop Team</h4>
+			</div>
+			<div class="member">
+				<img src="img/tristhal.jpg">
+				<h3>Tristhal Parasram</h3>
+				<h4>Logistics Team</h4>
+			</div>
+			<div class="member">
+				<img src="img/hamza.jpg">
+				<h3>Hamza Sayed-Ali</h3>
+				<h4>Activities Team</h4>
+			</div>
+			<div class="member">
+				<img src="img/albert.jpg">
+				<h3>Albert Zhan</h3>
+				<h4>Logistics Team</h4>
+			</div>
+			<div class="member">
+				<img src="img/doris.jpg">
+				<h3>Doris Chang</h3>
+				<h4>Food Team</h4>
+			</div>
+			<div class="member">
+				<img src="img/person.png">
+				<h3>Joyce Lu</h3>
+				<h4>Outreach Team</h4>
+			</div>
+			<div class="member">
+				<img src="img/madhu.jpg">
+				<h3>Madhu Yadiki</h3>
+				<h4>Food Team</h4>
+			</div>
+			<div class="member">
+				<img src="img/person.png">
+				<h3>Minya Bai</h3>
+				<h4>Activities Team</h4>
+			</div>
+		</div>
+	</div>
+
+	<div id="press">
+		<h1 class="title">Press</h1>
+		<p>Our press coverage for MasseyHacks II.</p>
+		<h4><a href="http://gvappstudios.com/" target="_" style="color: #9cb8e2">GV Media</a></h4>
+		<p><a href="https://www.youtube.com/watch?v=3zhLNG6dm04" target="_blank">MasseyHacks II Recap Video</a></p>
+		<h4>windsoriteDOTca</h4>
+		<p><a href="http://windsorite.ca/2016/05/photos-windsor-highschool-hackathon-massey-hacks-ii/" target="_blank">PHOTOS: Windsor Highschool Hackathon, Massey Hacks II</a></p>
+		<br><br>
+		<p style="font-size:1.4em;font-weight:bold">Our press coverage for MasseyHacks I.</p>
+		<p>Want to visit our MasseyHacks I site? Click <a href="mh1/" target="_blank">here</a>!</p>
+		<div id="left-press">
+			<h3>Articles</h3>
+			<h4>Windsor Star</h4>
+			<p><a href="http://windsorstar.com/news/local-news/hackathon-brings-together-brightest-teen-technology-minds" target="_blank">Hackathon brings together brightest teen technology minds</a></p>
+			<h4>Windsor Square</h4>
+			<p><a href="http://www.windsorsquare.ca/?p=91880" target="_blank">Massey Leading Windsor Schools And Hackers</a></p>
+			<h4>EPICentre</h4>
+			<p><a href="http://www.epicentreuwindsor.ca/vincent-massey-hosts-windsor-essexs-first-high-school-hackathon/" target="_blank">Vincent Massey hosts Windsor-Essex’s first high school hackathon</a></p>
+			<h4>Windsor Square</h4>
+			<p><a href="http://www.windsorsquare.ca/?p=90907" target="_blank">Massey To Host Hackathon</a></p>
+		</div>
+		<div id="right-press">
+			<h3>Media</h3>
+			<h4>snapd Windsor</h4>
+			<p><a href="https://www.facebook.com/media/set/?set=a.951755031539537.1073745540.471778652870513&type=3s" target="_blank">MasseyHacks Photo Album</a></p>
+			<h4>Hilmer Media</h4>
+			<p><a href="https://www.youtube.com/watch?v=-HCPia4c8vI" target="_blank">Massey Hacks I, The Genesis</a></p>
+			<h4>windsoriteDOTca</h4>
+			<p><a href="http://windsorite.ca/2016/02/photos-masseyhacks-windsors-first-high-school-hackathon/" target="_blank">PHOTOS: MasseyHacks, Windsor’s First High School Hackathon</a></p>
+		</div>
+	</div>
+
+	<div id="footer">
+		<p>&copy; 2016 MasseyHacks. Made with <i class="fa fa-heart"></i> by the MasseyHacks team.</p>
+	</div>
+
+	<a id="mlh-trust-badge" style="position:fixed;top:0;right:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:9998" href="https://mlh.io/seasons/s2016/events?utm_source=s2016&utm_medium=TrustBadge&utm_campaign=s2016" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/s2016.png" alt="MLH Official - Spring 2016" style="width:100%;">
+	</a>
+
+</body>
+
+</html>
